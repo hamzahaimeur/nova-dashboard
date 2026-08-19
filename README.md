@@ -87,8 +87,8 @@ Make sure you have a current **Node.js** installation available.
 Clone the repository and install the project dependencies:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
-cd YOUR_PROJECT_DIRECTORY
+git clone https://github.com/hamzahaimeur/nova-dashboard.git
+cd nova-dashboard
 npm install
 ```
 
