@@ -77,6 +77,9 @@ export function DeviceChart({ data }: { data: DeviceStat[] }) {
               width={36}
               stroke="var(--muted-foreground)"
               fontSize={12}
+              domain={[0, 'dataMax + 10']}
+              tickCount={5}
+              allowDecimals={false}
               tickFormatter={(v) => `${v}%`}
             />
             <Tooltip
