@@ -71,6 +71,9 @@ export function DashboardShell() {
                   <p className="text-sm text-muted-foreground">
                     Welcome back, Hamza. Here&apos;s what&apos;s happening today.
                   </p>
+                  <p className="mt-1 text-xs text-muted-foreground/80">
+                    Demo data · All metrics, users, orders, and activity shown are sample data for UI demonstration only.
+                  </p>
                 </div>
                 <Button
                   variant="outline"
